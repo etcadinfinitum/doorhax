@@ -1,6 +1,8 @@
 from flask import Flask, url_for, request, render_template, redirect
 import time
 
+app = Flask(__name__)
+
 @app.route('/')
 @app.route('/index.html')
 def landing():
