@@ -1,5 +1,5 @@
 # doorhax
-Front-end for DubHacks 2019 project with @udomugo, @mkhsu, and @cforcomputer
+Front-end for DubHacks 2019 project with @etcadinfinitum, @udomugo, @mkhsu, and @cforcomputer 
 
 ## DOORS
 (Directed Open Object Reality Simulator)
