@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>DOORS | DiReCtEd OpEn ObJeCt ReAliTY SiMuLaToR</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="/static/style.css">
+
+    </head>
+    <body>
+
+        <nav class="navbar sticky-top navbar-dark bg-dark">
+            <a class="navbar-brand" href="/">DOORS</a>
+        </nav>
+
+        <div class="container">
+            <!-- TODO: Need div to pick and upload file -->
+            <form method="POST" action="/upload_image" enctype="multipart/form-data">
+                <input type="file" name="user_file">
+                <input type="submit" value="Upload">
+            </form>
+            <!-- TODO: Need div to display processed file, if available -->
+
+            {% if img %}
+            <img src="/static/images/{{ img }}" />
+            {% endif %}
+        </div>
+
+    </body>
+</html>
