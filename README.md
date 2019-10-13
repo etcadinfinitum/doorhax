@@ -7,6 +7,8 @@ Front-end for DubHacks 2019 project with @udomugo, @mkhsu, and @cforcomputer
 ## Inspiration
 We were inspired by a demo that we saw where someone created a model of a tardis that made it appear bigger on the inside using AR technology. We started to think about how we could apply this technique on a larger scale, and the potential community health benefits it could provide. 
 
+For reference, check out [this video](https://www.youtube.com/watch?v=dUBxHd3bMhg), especially the second half explaining the TARDIS reference and the techniques used to achieve the desired affect.
+
 ## Overview
 Doors is a software application used for detecting apertures such as windows and doorways in static environments. After detecting a doorway, object persistence maintains the positions of the “doors” and replaces them with a simulated environment.
 
