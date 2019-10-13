@@ -22,3 +22,5 @@ For the purpose of Dubhacks 2019, we’ve created an interactive demonstration i
 
 ## The Future
 We could see DOORS being used for various therapy purposes. By adding a layer of familiar unreality, they may feel more open to engage with a therapist. DOORS could also be used to simulate different times of day through windows, allowing for “real life desktop backgrounds”. For those who have to deal with odd schedules, DOORS could be used to help maintain circidian rhythm and simultaniously fight depression in areas of the world that get low sunlight exposure. 
+
+As an intermediary stage of development, we would like to support live-streaming video from a user's phone that would apply transparency to the detected aperture and be overlaid onto the desired backdrop in real time. A long-term goal of the project is to support Augment Reality for existing and future AR/VR platforms, providing a more immersive experience.
