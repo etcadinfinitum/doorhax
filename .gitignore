@@ -2,3 +2,4 @@ env/
 venv/
 .*.sw?
 __pycache__/
+*/static/images/*
